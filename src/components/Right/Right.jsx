@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import "./Right.css";
 import { SiTheconversation } from "react-icons/si";
 import { TiShoppingCart } from "react-icons/ti";
-import LineChart from "./LineChart";
-import GaugeChat from "./GaugeChat";
+import LineChart from "./Charts/LIneChart/LineChart";
+import GaugeChat from "./Charts/GaugeChart/GaugeChat";
 
 const Right = () => {
   return (
@@ -121,7 +121,7 @@ const Right = () => {
             <div className="gauge" id>
               <div className="level-header">Level 5</div>
               <div className="level-header">+$32,050 in the last month</div>
-               </div>
+            </div>
             <GaugeChat className="gauge" />
             <div className="gauge">$14,495</div>
           </div>

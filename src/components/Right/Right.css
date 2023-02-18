@@ -146,7 +146,7 @@
   /* background-image: url("gauge.png"); */
   width: 35%;
   height: 100%;
-  margin:0px;
+  margin: 0px;
   padding: 0px;
   background-size: 100% 100%;
 }
@@ -258,26 +258,25 @@
   transition: 1s;
 }
 
-.right-foooter-fragment:nth-child(2){
+.right-foooter-fragment:nth-child(2) {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
-.level-header:nth-child(1){
-  color:blue;
+.level-header:nth-child(1) {
+  color: blue;
   font-size: 1.8rem;
   font-weight: 700;
 }
 
-
-.level-header:nth-child(2){
-  color:rgb(138, 138, 216);
+.level-header:nth-child(2) {
+  color: rgb(138, 138, 216);
   font-weight: 700;
 }
 
-.gauge:nth-child(3){
+.gauge:nth-child(3) {
   font-weight: 900;
   font-size: 1.8rem;
 }
