@@ -1,4 +1,4 @@
-import React,{useState} from "react";
+import React, { useState } from "react";
 import "./Right.css";
 import { SiTheconversation } from "react-icons/si";
 import { TiShoppingCart } from "react-icons/ti";
@@ -6,7 +6,6 @@ import LineChart from "./LineChart";
 import GaugeChat from "./GaugeChat";
 
 const Right = () => {
-
   return (
     <>
       <div className="right-container">
@@ -64,9 +63,7 @@ const Right = () => {
           </div>
         </div>
         <div className="right-container-fragments" id="graph">
-       
-            <LineChart className="graph" id="line"/>
-          
+          <LineChart className="graph" id="line" />
         </div>
         <div className="right-container-fragments">
           <div className="right-foooter-fragment">
@@ -76,12 +73,12 @@ const Right = () => {
               <div className="cart-headers">Segments</div>
               <div className="cart-headersdfd" id="last-month">
                 <div className="select-month">Last Month</div>
-                </div>
+              </div>
             </div>
             <div className="cart-body">
               <div className="cart-items">
                 <div className="cart-content" id="cart-content">
-                  <TiShoppingCart className="cart-title"/>
+                  <TiShoppingCart className="cart-title" />
                   <div className="cart-title">
                     <div className="title">Abandoned Cart 7 Days</div>
                     <div className="stats">4024 Sent | 124 Clicks</div>
@@ -93,8 +90,8 @@ const Right = () => {
                 </div>
               </div>
               <div className="cart-items">
-              <div className="cart-content" id="cart-content">
-                  <TiShoppingCart className="cart-title"/>
+                <div className="cart-content" id="cart-content">
+                  <TiShoppingCart className="cart-title" />
                   <div className="cart-title">
                     <div className="title">Abandoned Cart 7 Days</div>
                     <div className="stats">4024 Sent | 124 Clicks</div>
@@ -106,8 +103,8 @@ const Right = () => {
                 </div>
               </div>
               <div className="cart-items">
-              <div className="cart-content" id="cart-content">
-                  <TiShoppingCart className="cart-title"/>
+                <div className="cart-content" id="cart-content">
+                  <TiShoppingCart className="cart-title" />
                   <div className="cart-title">
                     <div className="title">Abandoned Cart 7 Days</div>
                     <div className="stats">4024 Sent | 124 Clicks</div>
@@ -121,7 +118,12 @@ const Right = () => {
             </div>
           </div>
           <div className="right-foooter-fragment">
-
+            <div className="gauge" id>
+              <div className="level-header">Level 5</div>
+              <div className="level-header">+$32,050 in the last month</div>
+               </div>
+            <GaugeChat className="gauge" />
+            <div className="gauge">$14,495</div>
           </div>
         </div>
       </div>
