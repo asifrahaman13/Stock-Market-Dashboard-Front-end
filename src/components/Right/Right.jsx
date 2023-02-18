@@ -3,6 +3,7 @@ import "./Right.css";
 import { SiTheconversation } from "react-icons/si";
 import { TiShoppingCart } from "react-icons/ti";
 import LineChart from "./LineChart";
+import GaugeChat from "./GaugeChat";
 
 const Right = () => {
 
@@ -119,7 +120,9 @@ const Right = () => {
               </div>
             </div>
           </div>
-          <div className="right-foooter-fragment"></div>
+          <div className="right-foooter-fragment">
+
+          </div>
         </div>
       </div>
     </>
