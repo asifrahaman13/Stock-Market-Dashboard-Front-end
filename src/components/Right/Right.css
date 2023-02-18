@@ -278,5 +278,6 @@
 
 .gauge:nth-child(3) {
   font-weight: 900;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
+  font-family: "Rowdies", cursive;
 }
