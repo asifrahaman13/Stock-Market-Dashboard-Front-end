@@ -1,5 +1,6 @@
 import React from "react";
 import "./Left.css";
+import { NavLink } from "react-router-dom";
 import {
   AiOutlineSearch,
   AiFillDashboard,
@@ -22,40 +23,57 @@ const Left = () => {
         </div>
         <div className="left-container-segments" id="search">
           <AiOutlineSearch className="icon" />
-          <p>Search...</p>
+          <input type="text" className="text" placeholder="Search..."/>
         </div>
         <div className="left-container-segments" id="dashboard">
           <AiFillDashboard className="icon" />
-          <p>Dashboard</p>
+          <p>
+            <NavLink to="/">Dashboard</NavLink>
+            </p>
         </div>
         <div className="left-container-segments" id="horizontal"></div>
         <div className="left-container-segments">
           <SiTheconversation className="icon" />
-          <p>Conversations</p>
+          <p>
+            <NavLink to="/conversations">
+            Conversations
+            </NavLink>
+            </p>
         </div>
         <div className="left-container-segments">
           <TbSettingsAutomation className="icon" />
-          <p>Automatics</p>
+          <p>
+            <NavLink to="/automatics"> Automatics</NavLink>
+           </p>
         </div>
         <div className="left-container-segments">
           <BsCompassFill className="icon" />
-          <p>Compaigns</p>
+          <p><NavLink to="/compaigns">Compaigns</NavLink>
+            </p>
         </div>
         <div className="left-container-segments">
           <GoRepoPull className="icon" />
-          <p>Popup</p>
+          <p>
+            <NavLink to="/popup">Popup</NavLink>
+            </p>
         </div>
         <div className="left-container-segments">
           <AiOutlineLineChart className="icon" />
-          <p>Live Chart</p>
+          <p>
+            <NavLink to="/livechart">Live Chart</NavLink>
+            </p>
         </div>
         <div className="left-container-segments">
           <MdOutlineSegment className="icon" />
-          <p>Segments</p>
+          <p>
+            <NavLink to="/segments">Segments</NavLink>
+            </p>
         </div>
         <div className="left-container-segments">
           <GiDisintegrate className="icon" />
-          <p>Integrations</p>
+          <p>
+            <NavLink to="/integrations">Integrations</NavLink>
+            </p>
         </div>
         <div className="left-container-segments" id="kara">
           <div className="image"></div>
